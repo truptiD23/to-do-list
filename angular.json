@@ -21,6 +21,9 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
+              "src/task-management-logo.png",
+              
               {
                 "glob": "**/*",
                 "input": "public"
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
